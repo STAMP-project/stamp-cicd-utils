@@ -19,4 +19,4 @@ Project can be used by adding the following dependency to your pom.xml:
   </dependency>
 ```
 
-Javadoc is available [here](doc/apidocs/index.html).
+Javadoc is available [here](docs/apidocs/index.html).
