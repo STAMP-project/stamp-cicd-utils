@@ -20,7 +20,7 @@ public class ExceptionExtractorTest extends TestCase {
 			fail("Test failed with IOException: " + e);
 		}
 		Assert.assertNotNull(exceptions);
-		Assert.assertEquals(exceptions.size(), 17);
+		Assert.assertEquals(17, exceptions.size());
 	}
 
 	public void testExplodeExceptionsFile() {
@@ -34,7 +34,7 @@ public class ExceptionExtractorTest extends TestCase {
 			fail("Test failed with IOException: " + e);
 		}
 		Assert.assertNotNull(exceptions);
-		Assert.assertEquals(exceptions.size(), 36);
+		Assert.assertEquals(36, exceptions.size());
 	}
 
 }
