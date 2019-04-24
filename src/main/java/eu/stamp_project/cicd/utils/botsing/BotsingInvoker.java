@@ -30,6 +30,7 @@ public class BotsingInvoker {
      */
     public static int runBotsing(String pomPath, String botsingVersion,
     		String crashLog, int nbFrames, String testDir, PrintStream out) {
+    	if(out == null) out = System.out;
     	InvocationRequest request = new DefaultInvocationRequest();
     	request.setPomFile(new File(pomPath));
     	request.setBatchMode(true);

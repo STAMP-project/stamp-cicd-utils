@@ -1,6 +1,8 @@
 package eu.stamp_project.cicd.utils.misc;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -46,5 +48,31 @@ public class FileUtils {
 			if(out != null) out.close();
 		}
 		return temp.getAbsolutePath();
+	}
+	
+	/**
+	 * Read text file contents into a String
+	 * @param file The text file to read
+	 * @return The file contents
+	 * @throws IOException
+	 */
+	public static String fileToString(File file) throws IOException {
+		BufferedReader in = null;
+		StringBuilder result = null;
+		try {
+			in = new BufferedReader(new FileReader(file));
+			String line;
+			result = new StringBuilder();
+			boolean first = true;
+			while((line = in.readLine()) != null) {
+				result.append((first ? "" : "\n") + line);
+				first = false;
+			}
+		} catch(IOException e) {
+			throw(e);
+		} finally {
+			if(in != null) in.close();
+		}
+		return result.toString();
 	}
 }

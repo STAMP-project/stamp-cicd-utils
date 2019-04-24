@@ -36,5 +36,19 @@ public class FileUtilsTest extends TestCase {
 		File data = new File(fname);
 		Assert.assertTrue(data.exists() && data.isFile());
 	}
+	
+	public void testFileToString() {
+		String fname = null;
+		String data = null;
+		try {
+			fname = FileUtils.tempFile("12345\n6789");
+			Assert.assertNotNull(fname);
+			data = FileUtils.fileToString(new File(fname));
+		} catch (IOException e) {
+			fail("Exception thrown: " + e);
+		}
+		Assert.assertNotNull(data);
+		Assert.assertEquals(10, data.length());
+	}
 
 }
