@@ -14,7 +14,7 @@ import org.apache.maven.shared.invoker.PrintStreamHandler;
 
 /**
  * Invoke botsing maven plugin, using java maven invoker.
- *
+ * @author Pierre-Yves Gibello - OW2
  */
 public class BotsingInvoker {
 

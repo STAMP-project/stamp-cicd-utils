@@ -16,8 +16,8 @@ import org.gitlab4j.api.models.IssueFilter;
 import org.gitlab4j.api.models.Note;
 
 /**
- * Manage Gitlab issues
- *
+ * Manage Gitlab issues.
+ * @author Pierre-Yves Gibello - OW2
  */
 public class GitlabIssueManager
 {

@@ -5,6 +5,11 @@ import java.io.IOException;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
+/**
+ * Test file utilities.
+ * @author Pierre-Yves Gibello - OW2
+ *
+ */
 public class FileUtilsTest extends TestCase {
 
 	public void testDeleteIfExists() {

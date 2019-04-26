@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 /**
  * Parse log stream to extract exception stacks.
- *
+ * @author Pierre-Yves Gibello - OW2
  */
 public class ExceptionExtractor {
     

@@ -8,7 +8,7 @@ import org.eclipse.jgit.api.Git;
 
 /**
  * Clone Git repository.
- *
+ * @author Pierre-Yves Gibello - OW2
  */
 public class GitCloner {
 

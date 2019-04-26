@@ -8,6 +8,11 @@ import org.eclipse.jgit.api.Git;
 
 import junit.framework.TestCase;
 
+/**
+ * Test GIT cloner.
+ * @author Pierre-Yves Gibello - OW2
+ *
+ */
 public class GitClonerTest extends TestCase {
 
 	public void testCloneRepository() {

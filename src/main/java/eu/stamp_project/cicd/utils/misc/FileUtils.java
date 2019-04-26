@@ -7,6 +7,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * Utilitary methods related to files.
+ * @author Pierre-Yves Gibello - OW2
+ *
+ */
 public class FileUtils {
 
 	/**

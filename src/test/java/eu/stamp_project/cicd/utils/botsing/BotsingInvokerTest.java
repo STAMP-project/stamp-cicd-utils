@@ -5,6 +5,11 @@ import java.io.File;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
+/**
+ * Test Botsing invoker.
+ * @author Pierre-Yves Gibello - OW2
+ *
+ */
 public class BotsingInvokerTest extends TestCase {
 
 	public void testFindGeneratedTest() {

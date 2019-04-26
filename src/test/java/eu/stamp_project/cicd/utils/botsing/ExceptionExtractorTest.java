@@ -7,6 +7,11 @@ import java.util.List;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
+/**
+ * Test exception parsing and preprocessing.
+ * @author Pierre-Yves Gibello - OW2
+ *
+ */
 public class ExceptionExtractorTest extends TestCase {
 
 	public void testExtractExceptionsFile() {
