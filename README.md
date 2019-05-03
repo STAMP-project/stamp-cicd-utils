@@ -1,22 +1,5 @@
 # stamp-cicd-utils
-STAMP ci/cd tools library: utilitary classes for miscellaneous STAMP needs.
-Includes:
-* Gitlab and Git stuff (based on [Gitlab4j](https://github.com/gmessner/gitlab4j-api) and [Eclipse jGit](https://www.eclipse.org/jgit/))
-* Tools related to STAMP [Botsing](https://github.com/STAMP-project/botsing), including a Botsing maven invoker and an exceptions parser/extractor class.
-* Miscellaneous utilities.
 
-This project is intended for leveraging STAMP development, providing building blocks that can be used to provide STAMP-related services (eg. a Botsing Gitlab web hook, servlet-based STAMP services...).
+THIS PROJECT HAS BEEN MOVED (REPOSITORY DISCONTINUED, TO BE REMOVED BY JUNE 2019).
 
-Build: mvn clean install
-
-Project can be used by adding the following dependency to your pom.xml:
-
-```xml
-  <dependency>
-     <groupId>eu.stamp-project</groupId>
-     <artifactId>stamp-cicd-utils</artifactId>
-     <version>1.0.0-SNAPSHOT</version>
-  </dependency>
-```
-
-Javadoc is available [here](https://stamp-project.github.io/stamp-cicd-utils/apidocs/index.html).
+It is now merged into a larger repository: live version [here](https://github.com/STAMP-project/stamp-ci), in stamp-cicd-utils directory.
